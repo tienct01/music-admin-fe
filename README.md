@@ -1,80 +1,59 @@
-# Free Tailwind dashboard template
+<p align="center">
+  <a href="https://vitejs.dev" target="_blank" rel="noopener noreferrer">
+    <img width="180" src="https://vitejs.dev/logo.svg" alt="Vite logo">
+  </a>
+</p>
+<br/>
+<p align="center">
+  <a href="https://npmjs.com/package/vite"><img src="https://img.shields.io/npm/v/vite.svg" alt="npm package"></a>
+  <a href="https://nodejs.org/en/about/releases/"><img src="https://img.shields.io/node/v/vite.svg" alt="node compatibility"></a>
+  <a href="https://github.com/vitejs/vite/actions/workflows/ci.yml"><img src="https://github.com/vitejs/vite/actions/workflows/ci.yml/badge.svg?branch=main" alt="build status"></a>
+  <a href="https://pr.new/vitejs/vite"><img src="https://developer.stackblitz.com/img/start_pr_dark_small.svg" alt="Start new PR in StackBlitz Codeflow"></a>
+  <a href="https://chat.vitejs.dev"><img src="https://img.shields.io/badge/chat-discord-blue?style=flat&logo=discord" alt="discord chat"></a>
+</p>
+<br/>
 
-![Mosaic TailwindCSS template preview](https://github.com/cruip/tailwind-dashboard-template/assets/2683512/d252e308-8869-4b70-bce8-bb44071f8b2e)
+# Vite ⚡
 
-**Mosaic Lite** is a responsive dashboard template built on top of TailwindCSS and fully coded in React. It comes with several pre-coded charts (built with Chart.js 3) and widgets, and it's a great starting for anyone who wants to create a user interface for SaaS products, administrator dashboards, modern web apps, and more.
+> Next Generation Frontend Tooling
 
-Use it for whatever you want, and be sure to reach us out on [Twitter](https://twitter.com/Cruip_com) if you build anything cool/useful with it.
+- 💡 Instant Server Start
+- ⚡️ Lightning Fast HMR
+- 🛠️ Rich Features
+- 📦 Optimized Build
+- 🔩 Universal Plugin Interface
+- 🔑 Fully Typed APIs
 
-Created and maintained with ❤️ by [Cruip.com](https://cruip.com/).
+Vite (French word for "quick", pronounced [`/vit/`](https://cdn.jsdelivr.net/gh/vitejs/vite@main/docs/public/vite.mp3), like "veet") is a new breed of frontend build tooling that significantly improves the frontend development experience. It consists of two major parts:
 
-## Live demo
+- A dev server that serves your source files over [native ES modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules), with [rich built-in features](https://vitejs.dev/guide/features.html) and astonishingly fast [Hot Module Replacement (HMR)](https://vitejs.dev/guide/features.html#hot-module-replacement).
 
-Check the live demo here 👉️ [https://mosaic.cruip.com/](https://mosaic.cruip.com/)
+- A [build command](https://vitejs.dev/guide/build.html) that bundles your code with [Rollup](https://rollupjs.org), pre-configured to output highly optimized static assets for production.
 
-## Mosaic Pro
+In addition, Vite is highly extensible via its [Plugin API](https://vitejs.dev/guide/api-plugin.html) and [JavaScript API](https://vitejs.dev/guide/api-javascript.html) with full typing support.
 
-[![Mosaic Pro](https://user-images.githubusercontent.com/2683512/151177026-3d063355-976d-4fdb-a5ed-9c1501c58af2.png)](https://cruip.com/mosaic/)
+[Read the Docs to Learn More](https://vitejs.dev).
 
-## Design files
+## Packages
 
-If you need the design files, you can download them from Figma's Community 👉 https://bit.ly/3sigqHe
+| Package                                         | Version (click for changelogs)                                                                                                    |
+| ----------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------- |
+| [vite](packages/vite)                           | [![vite version](https://img.shields.io/npm/v/vite.svg?label=%20)](packages/vite/CHANGELOG.md)                                    |
+| [@vitejs/plugin-legacy](packages/plugin-legacy) | [![plugin-legacy version](https://img.shields.io/npm/v/@vitejs/plugin-legacy.svg?label=%20)](packages/plugin-legacy/CHANGELOG.md) |
+| [create-vite](packages/create-vite)             | [![create-vite version](https://img.shields.io/npm/v/create-vite.svg?label=%20)](packages/create-vite/CHANGELOG.md)               |
 
-## Table of contents
+## Contribution
 
-* [Usage](#usage)
-  * [Project setup](#project-setup)
-  * [Compiles and hot-reloads for development](#compiles-and-hot-reloads-for-development)
-  * [Compiles and minifies for production](#compiles-and-minifies-for-production)
-  * [Customize configuration](#customize-configuration)
-* [Support notes](#support-notes)            
-* [Credits](#credits)
-* [Terms and License](#terms-and-license)
-* [About Us](#about-us)
-* [Stay in the loop](#stay-in-the-loop)
+See [Contributing Guide](CONTRIBUTING.md).
 
-## Usage
+## License
 
-This project was bootstrapped with [Vite](https://vitejs.dev/).
+[MIT](LICENSE).
 
-### Project setup
-```
-npm install
-```
+## Sponsors
 
-#### Compiles and hot-reloads for development
-```
-npm run dev
-```
-
-#### Compiles and minifies for production
-```
-npm run build
-```
-
-#### Customize configuration
-See [Configuration Reference](https://vitejs.dev/guide/).
-
-### Support notes
-We are shipping our templates with a very basic React configuration to let you quickly get into the development process, but we don't discourage you from using any other configuration or framework built on the top of React. So, please note that any request dealing with React (e.g. extra features, customisations, et cetera) is to be considered out of the support scope.
-
-For more information about what support covers, please see our (FAQs)[https://cruip.com/faq/].
-
-## Credits
-
-- [Nucleo](https://nucleoapp.com/)
-
-## Terms and License
-
-- Released under the [GPL](https://www.gnu.org/licenses/gpl-3.0.html).
-- Copyright 2020 [Cruip](https://cruip.com/).
-- Use it for personal and commercial projects, but please don’t republish, redistribute, or resell the template.
-- Attribution is not required, although it is really appreciated.
-
-## About Us
-
-We're an Italian developer/designer duo creating high-quality design/code resources for developers, makers, and startups.
-
-## Stay in the loop
-
-If you would like to know when we release new resources, you can follow us on [Twitter](https://twitter.com/Cruip_com), or you can subscribe to our monthly [newsletter](https://cruip.com/#subscribe).
+<p align="center">
+  <a target="_blank" href="https://github.com/sponsors/yyx990803">
+    <img alt="sponsors" src="https://sponsors.vuejs.org/vite.svg">
+  </a>
+</p>
