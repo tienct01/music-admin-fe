@@ -62,9 +62,9 @@ const AuthProvider = ({ children }) => {
 					console.log(error);
 				}
 			}
+			setIsLoading(false);
 		}
 		getData();
-		setIsLoading(false);
 	}, []);
 
 	const value = {

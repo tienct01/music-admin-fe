@@ -11,7 +11,7 @@ const PrivateRoute = (Component) => {
 			if (!user && !isLoading) {
 				navigate('/signin');
 			}
-		}, [user]);
+		}, [user, isLoading]);
 
 		if (!user || isLoading) {
 			return null;
