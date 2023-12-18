@@ -5,7 +5,6 @@ class HttpServices {
 		this.axios = axios;
 	}
 	attachTokenToHeader(token) {
-		console.log('123333');
 		// Add a request interceptor
 		this.axios.interceptors.request.use(
 			function (config) {
